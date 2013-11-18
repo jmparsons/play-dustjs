@@ -1,4 +1,4 @@
-name := "play-plugins-dust"
+name := "play-dustjs"
 
 version := "1.5.0"
 
