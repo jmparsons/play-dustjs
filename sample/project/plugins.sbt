@@ -8,4 +8,4 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.2.1")
 
 // The Dust plugin
-addSbtPlugin("com.jmparsons" % "play-dustjs" % "1.5")
+addSbtPlugin("com.jmparsons" % "play-dustjs" % "1.5.0")
