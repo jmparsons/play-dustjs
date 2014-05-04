@@ -22,7 +22,7 @@ trait DustTasks extends DustKeys {
     import scala.collection.JavaConversions._
     import java.io._
 
-    val dustFile = "dust-full-2.2.0.js"
+    val dustFile = "dust-full-2.3.4.js"
     val ctx = Context.enter
     val global = new Global
     global.init(ctx)

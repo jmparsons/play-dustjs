@@ -1,17 +1,17 @@
 # play-dustjs
 This [sbt][sbt] plugin for [Play][play] provides build time compilation for [Dust](https://github.com/linkedin/dustjs) templates.
 
-# Installation
+## Installation
 
 Add the sbt plugin to your `project/plugins.sbt` file:
 
-    addSbtPlugin("com.jmparsons" % "play-dustjs" % "1.5.0")
+    addSbtPlugin("com.jmparsons" % "play-dustjs" % "1.6.0")
 
-# Usage
+## Usage
 
 Include the core dust file - can be downloaded from [LinkedIn Dustjs](http://linkedin.github.io/dustjs/) or [here](https://github.com/linkedin/dustjs/tree/master/dist).
 
-    <script src="@routes.Assets.at("javascripts/dust-core-2.2.0.js")"></script>
+    <script src="@routes.Assets.at("javascripts/dust-core-2.3.4.js")"></script>
 
 Place your template **.tl** files into the `app/assets` directory.
 
@@ -30,7 +30,14 @@ Render the template:
       });
     });
 
+Example project with RequireJS: <https://github.com/jmparsons/play-scala-backbone-todo>
+
 ## Changelog
+
+1.6.0 - May 4, 2014
+
+- Updated to full and core 2.3.4 from LinkedIn's dustjs.
+- Added link to example project using RequireJS.
 
 1.5.0 - November 18, 2013
 

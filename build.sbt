@@ -1,12 +1,14 @@
 name := "play-dustjs"
 
-version := "1.5.0"
+version := "1.6.0"
 
 sbtPlugin := true
 
 organization := "com.jmparsons"
 
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.2.1")
+resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
+
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.2.3")
 
 libraryDependencies += "commons-io" % "commons-io" % "2.2"
 
