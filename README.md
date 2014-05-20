@@ -1,6 +1,8 @@
 # play-dustjs
 This [sbt][sbt] plugin for [Play][play] provides build time compilation for [Dust](https://github.com/linkedin/dustjs) templates.
 
+For Play 2.3.x there is a new version available [sbt-dustjs-linkedin][sbt-dustjs-linkedin].
+
 ## Installation
 
 Add the sbt plugin to your `project/plugins.sbt` file:
@@ -63,3 +65,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 [play]: http://www.playframework.com/
 [sbt]: https://github.com/harrah/xsbt
+[sbt-dustjs-linkedin]: https://github.com/jmparsons/sbt-dustjs-linkedin
